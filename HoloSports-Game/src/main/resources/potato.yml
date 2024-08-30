@@ -1,0 +1,88 @@
+games:
+  potato:
+    npcs:
+      hub:
+        ==: org.bukkit.Location
+        world: holosports_potato
+        x: -7.5
+        y: -46
+        z: -43.5
+        pitch: 0.0
+        yaw: 0.0
+      team-selector:
+        ==: org.bukkit.Location
+        world: holosports_potato
+        x: -7.5
+        y: -46
+        z: -29.5
+        pitch: 0
+        yaw: 180
+    spawn-points:
+      lobby:
+        ==: org.bukkit.Location
+        world: holosports_potato
+        x: -7.5
+        y: -46
+        z: -39.5
+        pitch: 0.0
+        yaw: 0.0
+    goals:
+      first:
+        center:
+          ==: org.bukkit.Location
+          world: holosports_potato
+          x: 13.3
+          y: -52
+          z: 14.0
+          pitch: 0.0
+          yaw: 90.0
+        cuboid:
+          pos1:
+            ==: org.bukkit.Location
+            world: holosports_potato
+            x: 12.001
+            y: -53
+            z: 17.9
+            pitch: 0.0
+            yaw: 0.0
+          pos2:
+            ==: org.bukkit.Location
+            world: holosports_potato
+            x: 13.9
+            y: -47
+            z: 8.0
+            pitch: 0.0
+            yaw: 0.0
+      mid:
+        center:
+          ==: org.bukkit.Location
+          world: holosports_potato
+          x: 13.5
+          y: -52
+          z: -22.5
+          pitch: 0.0
+          yaw: 90.0
+        cuboid:
+          pos1:
+            ==: org.bukkit.Location
+            world: holosports_potato
+            x: 13
+            y: -53
+            z: -18
+            pitch: 0.0
+            yaw: 0.0
+          pos2:
+            ==: org.bukkit.Location
+            world: holosports_potato
+            x: 14
+            y: -50
+            z: -28
+            pitch: 0.0
+            yaw: 0.0
+    teams:
+      white:
+        name: 'White'
+        color: WHITE
+      red:
+        name: 'Red'
+        color: RED

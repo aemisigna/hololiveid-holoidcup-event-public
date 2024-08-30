@@ -1,0 +1,7 @@
+name: HoloSports-Commons
+version: ${project.version}_RELEASE-${git.commit.id.abbrev}
+main: com.covercorp.holosports.commons.HoloSportsCommons
+author: COVER Corp.
+api-version: 1.13
+depend: [ProtocolLib]
+load: STARTUP

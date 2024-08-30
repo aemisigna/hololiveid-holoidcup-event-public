@@ -1,0 +1,12 @@
+database:
+  address: 127.0.0.1
+  port: 3306
+  database: holosports
+  user: holosports
+  password: "SuperHololivePa$$word0305!"
+redis:
+  address: 127.0.0.1
+  port: 6379
+  database: 0
+  user: default
+  password: "PuufTheBunny1010$"

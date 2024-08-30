@@ -1,0 +1,99 @@
+hub:
+  spawn:
+    ==: org.bukkit.Location
+    world: holosports_hub
+    x: -7.5
+    y: -46.0
+    z: -41.5
+    pitch: 0.0
+    yaw: 0.0
+  motd: |
+    &0 
+    &0 
+    &0 
+    &0 
+    &0 
+    &0 
+    &0 
+    &0 
+    &0 
+    &0 
+    &0 
+    &0 
+    &0 
+    &0 
+    &0 
+    &7Welcome to the &r &bhololive Indonesia Cup 2023&7!
+    &7This message can be changed in the &econfig.yml &7file inside &eHoloSports-Hub &7directory!
+    &0
+npcs:
+  soccer:
+    display: "Soccer"
+    serverId: 'MC-02'
+    item: GOLDEN_HOE
+    model: 1000
+    color: AQUA
+    location:
+      ==: org.bukkit.Location
+      world: holosports_hub
+      x: 3.5
+      y: -46.0
+      z: -31.5
+      pitch: 0.0
+      yaw: -180.0
+  badminton:
+    display: "Badminton"
+    serverId: 'MC-03'
+    item: IRON_SHOVEL
+    model: 1001
+    color: GOLD
+    location:
+      ==: org.bukkit.Location
+      world: holosports_hub
+      x: -1.5
+      y: -46.0
+      z: -31.5
+      pitch: 0.0
+      yaw: 180
+  bentengan:
+    display: "Bentengan"
+    serverId: 'MC-04'
+    item: DIAMOND_SWORD
+    model: 0
+    color: YELLOW
+    location:
+      ==: org.bukkit.Location
+      world: holosports_hub
+      x: -7.5
+      y: -46.0
+      z: -36.5
+      pitch: 0.0
+      yaw: 180
+  potato:
+    display: "Potato Sack Race"
+    serverId: 'MC-05'
+    item: POTATO
+    model: 0
+    color: LIGHT_PURPLE
+    location:
+      ==: org.bukkit.Location
+      world: holosports_hub
+      x: -13.5
+      y: -46.0
+      z: -31.5
+      pitch: 0.0
+      yaw: 180
+  tug:
+    display: "Tug of War"
+    serverId: 'MC-06'
+    item: CHAIN
+    model: 0
+    color: GREEN
+    location:
+      ==: org.bukkit.Location
+      world: holosports_hub
+      x: -18.5
+      y: -46.0
+      z: -31.5
+      pitch: 0.0
+      yaw: -180.0

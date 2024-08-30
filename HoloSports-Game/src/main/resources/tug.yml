@@ -1,0 +1,78 @@
+games:
+  tug:
+    arena-edges:
+      pos1:
+        ==: org.bukkit.Location
+        world: holosports_tug
+        x: -9.05
+        y: 72.0
+        z: 5.001
+        pitch: 0.0
+        yaw: 0.0
+      pos2:
+        ==: org.bukkit.Location
+        world: holosports_tug
+        x: -69.9
+        y: 62
+        z: 39.9
+        pitch: 0.0
+        yaw: 0.0
+    npcs:
+      hub:
+        ==: org.bukkit.Location
+        world: holosports_tug
+        x: -7.5
+        y: -46
+        z: -43.5
+        pitch: 0.0
+        yaw: 0.0
+      team-selector:
+        ==: org.bukkit.Location
+        world: holosports_tug
+        x: -7.5
+        y: -46
+        z: -29.5
+        pitch: 0
+        yaw: 180
+    spawn-points:
+      lobby:
+        ==: org.bukkit.Location
+        world: holosports_tug
+        x: -7.5
+        y: -46
+        z: -39.5
+        pitch: 0.0
+        yaw: 0.0
+    center:
+        ==: org.bukkit.Location
+        world: holosports_tug
+        x: -8
+        y: -15
+        z: -5
+        pitch: 0.0
+        yaw: 0.0
+    teams:
+      white:
+        name: 'White'
+        color: WHITE
+        spawn-points:
+          standard:
+            ==: org.bukkit.Location
+            world: holosports_tug
+            x: 20.5
+            y: -16
+            z: -4.5
+            pitch: 0.0
+            yaw: 90.0
+      red:
+        name: 'Red'
+        color: RED
+        spawn-points:
+          standard:
+            ==: org.bukkit.Location
+            world: holosports_tug
+            x: -36.5
+            y: -16
+            z: -4.5
+            pitch: 0.0
+            yaw: -90.0

@@ -1,0 +1,6 @@
+name: HoloSports-Game
+version: ${project.version}_RELEASE-${git.commit.id.abbrev}
+main: com.covercorp.holosports.game.HoloSportsGame
+author: COVER Corp.
+api-version: 1.13
+depend: [HoloSports-Commons, ProtocolLib, PlayerNPC]

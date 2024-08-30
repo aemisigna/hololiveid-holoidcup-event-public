@@ -1,0 +1,400 @@
+games:
+  badminton:
+    arena-edges:
+      pos1:
+        ==: org.bukkit.Location
+        world: holosports_badminton
+        x: -9.05
+        y: 72.0
+        z: 5.001
+        pitch: 0.0
+        yaw: 0.0
+      pos2:
+        ==: org.bukkit.Location
+        world: holosports_badminton
+        x: -69.9
+        y: 62
+        z: 39.9
+        pitch: 0.0
+        yaw: 0.0
+    npcs:
+      hub:
+        ==: org.bukkit.Location
+        world: holosports_badminton
+        x: -7.5
+        y: -46
+        z: -37.5
+        pitch: 0.0
+        yaw: 0.0
+      team-selector:
+        ==: org.bukkit.Location
+        world: holosports_badminton
+        x: -7.5
+        y: -46
+        z: -29.5
+        pitch: 0
+        yaw: 180
+    spawn-points:
+      lobby:
+        ==: org.bukkit.Location
+        world: holosports_badminton
+        x: -7.5
+        y: -46
+        z: -34.5
+        pitch: 0.0
+        yaw: 0.0
+    teams:
+      white:
+        name: 'White'
+        color: WHITE
+        spawn-points: #ready
+          standard:
+            - ==: org.bukkit.Location
+              world: holosports_badminton
+              x: 6.5
+              y: -52
+              z: -4.5
+              pitch: 0.0
+              yaw: 90.0
+        shuttlecock-spawn-points:
+          score-even:
+            ==: org.bukkit.Location
+            world: holosports_badminton
+            x: 1.5
+            y: -50.5
+            z: -9.5
+            pitch: 0.0
+            yaw: 90.0
+          score-odd:
+            ==: org.bukkit.Location
+            world: holosports_badminton
+            x: 1.5
+            y: -50.5
+            z: 0.5
+            pitch: 0.0
+            yaw: 90.0
+          normal-play:
+            ==: org.bukkit.Location
+            world: holosports_badminton
+            x: 1.5
+            y: -50.5
+            z: -4.5
+            pitch: 0.0
+            yaw: 90.0
+        point-area-singles:
+          normal-point: # ready
+            pos1:
+              ==: org.bukkit.Location
+              world: holosports_badminton
+              x: -8.1
+              y: -51.9
+              z: 5.9
+              pitch: 0.0
+              yaw: 0.0
+            pos2:
+              ==: org.bukkit.Location
+              world: holosports_badminton
+              x: -28.9
+              y: -53
+              z: -14.9
+              pitch: 0.0
+              yaw: 0.0
+          serve-point:
+            score-even:
+              pos1:
+                ==: org.bukkit.Location
+                world: holosports_badminton
+                x: -12.1
+                y: -51.9
+                z: -4.5
+                pitch: 0.0
+                yaw: 0.0
+              pos2:
+                ==: org.bukkit.Location
+                world: holosports_badminton
+                x: -28.9
+                y: -53
+                z: 5.9
+                pitch: 0.0
+                yaw: 0.0
+            score-odd:
+              pos1:
+                ==: org.bukkit.Location
+                world: holosports_badminton
+                x: -12.1
+                y: -51.9
+                z: -4.5
+                pitch: 0.0
+                yaw: 0.0
+              pos2:
+                ==: org.bukkit.Location
+                world: holosports_badminton
+                x: -28.9
+                y: -53
+                z: -14.9
+                pitch: 0.0
+                yaw: 0.0
+        point-area-doubles:
+          normal-point: # ready
+            pos1:
+              ==: org.bukkit.Location
+              world: holosports_badminton
+              x: -8.1
+              y: -51.9
+              z: 8.9
+              pitch: 0.0
+              yaw: 0.0
+            pos2:
+              ==: org.bukkit.Location
+              world: holosports_badminton
+              x: -28.9
+              y: -53
+              z: -17.9
+              pitch: 0.0
+              yaw: 0.0
+          serve-point:
+            score-even:
+              pos1:
+                ==: org.bukkit.Location
+                world: holosports_badminton
+                x: -12.1
+                y: -51.9
+                z: -4.5
+                pitch: 0.0
+                yaw: 0.0
+              pos2:
+                ==: org.bukkit.Location
+                world: holosports_badminton
+                x: -25.9
+                y: -53
+                z: 8.9
+                pitch: 0.0
+                yaw: 0.0
+            score-odd:
+              pos1:
+                ==: org.bukkit.Location
+                world: holosports_badminton
+                x: -12.1
+                y: -51.9
+                z: -4.5
+                pitch: 0.0
+                yaw: 0.0
+              pos2:
+                ==: org.bukkit.Location
+                world: holosports_badminton
+                x: -25.9
+                y: -53
+                z: -17.9
+                pitch: 0.0
+                yaw: 0.0
+        serve-positions-singles:
+          serve-odd:
+            ==: org.bukkit.Location
+            world: holosports_badminton
+            x: 2.5
+            y: -52
+            z: 0.5
+            pitch: 0.0
+            yaw: 90.0
+          serve-even:
+            ==: org.bukkit.Location
+            world: holosports_badminton
+            x: 2.5
+            y: -52
+            z: -9.5
+            pitch: 0.0
+            yaw: 90.0
+        serve-positions-doubles:
+          serve-odd:
+            ==: org.bukkit.Location
+            world: holosports_badminton
+            x: 2.5
+            y: -52
+            z: 0.5
+            pitch: 0.0
+            yaw: 90.0
+          serve-even:
+            ==: org.bukkit.Location
+            world: holosports_badminton
+            x: 2.5
+            y: -52
+            z: -9.5
+            pitch: 0.0
+            yaw: 90.0
+      red:
+        name: 'Red'
+        color: RED
+        spawn-points: #ready
+          standard:
+            - ==: org.bukkit.Location
+              world: holosports_badminton
+              x: -21.5
+              y: -52
+              z: -4.5
+              pitch: 0.0
+              yaw: -90.0
+        shuttlecock-spawn-points:
+          score-even:
+            ==: org.bukkit.Location
+            world: holosports_badminton
+            x: -16.5
+            y: -50.5
+            z: 0.5
+            pitch: 0.0
+            yaw: -90.0
+          score-odd:
+            ==: org.bukkit.Location
+            world: holosports_badminton
+            x: -16.5
+            y: -50.5
+            z: -9.5
+            pitch: 0.0
+            yaw: -90.0
+          normal-play:
+            ==: org.bukkit.Location
+            world: holosports_badminton
+            x: -16.5
+            y: -50.5
+            z: -4.5
+            pitch: 0.0
+            yaw: -90.0
+        point-area-singles: # listo
+          normal-point: # ready
+            pos1:
+              ==: org.bukkit.Location
+              world: holosports_badminton
+              x: -6.9
+              y: -51.9
+              z: -14.9
+              pitch: 0.0
+              yaw: 0.0
+            pos2:
+              ==: org.bukkit.Location
+              world: holosports_badminton
+              x: 13.9
+              y: -53
+              z: 5.9
+              pitch: 0.0
+              yaw: 0.0
+          serve-point:
+            score-even:
+              pos1:
+                ==: org.bukkit.Location
+                world: holosports_badminton
+                x: -2.9
+                y: -51.9
+                z: -4.5
+                pitch: 0.0
+                yaw: 0.0
+              pos2:
+                ==: org.bukkit.Location
+                world: holosports_badminton
+                x: 13.9
+                y: -53
+                z: -14.9
+                pitch: 0.0
+                yaw: 0.0
+            score-odd:
+              pos1:
+                ==: org.bukkit.Location
+                world: holosports_badminton
+                x: -2.9
+                y: -51.9
+                z: -4.5
+                pitch: 0.0
+                yaw: 0.0
+              pos2:
+                ==: org.bukkit.Location
+                world: holosports_badminton
+                x: 13.9
+                y: -53
+                z: 5.9
+                pitch: 0.0
+                yaw: 0.0
+        point-area-doubles:
+          normal-point: # ready
+            pos1:
+              ==: org.bukkit.Location
+              world: holosports_badminton
+              x: 13.9
+              y: -51.9
+              z: 8.9
+              pitch: 0.0
+              yaw: 0.0
+            pos2:
+              ==: org.bukkit.Location
+              world: holosports_badminton
+              x: -6.9
+              y: -53
+              z: -17.9
+              pitch: 0.0
+              yaw: 0.0
+          serve-point:
+            score-even:
+              pos1:
+                ==: org.bukkit.Location
+                world: holosports_badminton
+                x: -2.9
+                y: -51.9
+                z: -4.5
+                pitch: 0.0
+                yaw: 0.0
+              pos2:
+                ==: org.bukkit.Location
+                world: holosports_badminton
+                x: 10.9
+                y: -53
+                z: -17.9
+                pitch: 0.0
+                yaw: 0.0
+            score-odd:
+              pos1:
+                ==: org.bukkit.Location
+                world: holosports_badminton
+                x: -2.9
+                y: -51.9
+                z: -4.5
+                pitch: 0.0
+                yaw: 0.0
+              pos2:
+                ==: org.bukkit.Location
+                world: holosports_badminton
+                x: 10.9
+                y: -53
+                z: 8.9
+                pitch: 0.0
+                yaw: 0.0
+        serve-positions-singles:
+          serve-odd:
+            ==: org.bukkit.Location
+            world: holosports_badminton
+            x: -17.5
+            y: -52
+            z: -9.5
+            pitch: 0.0
+            yaw: -90.0
+          serve-even:
+            ==: org.bukkit.Location
+            world: holosports_badminton
+            x: -17.5
+            y: -52
+            z: 0.5
+            pitch: 0.0
+            yaw: -90.0
+        serve-positions-doubles:
+          serve-odd:
+            ==: org.bukkit.Location
+            world: holosports_badminton
+            x: -17.5
+            y: -52
+            z: -9.5
+            pitch: 0.0
+            yaw: -90.0
+          serve-even:
+            ==: org.bukkit.Location
+            world: holosports_badminton
+            x: -17.5
+            y: -52
+            z: 0.5
+            pitch: 0.0
+            yaw: -90.0

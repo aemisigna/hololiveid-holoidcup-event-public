@@ -1,0 +1,305 @@
+games:
+  soccer:
+    arena-edges:
+      pos1:
+        ==: org.bukkit.Location
+        world: holosports_soccer
+        x: -9.05
+        y: 72.0
+        z: 5.001
+        pitch: 0.0
+        yaw: 0.0
+      pos2:
+        ==: org.bukkit.Location
+        world: holosports_soccer
+        x: -69.9
+        y: 62
+        z: 39.9
+        pitch: 0.0
+        yaw: 0.0
+    arena-sideline-1:
+      pos1:
+        ==: org.bukkit.Location
+        world: holosports_soccer
+        x: -11
+        y: 63
+        z: -4
+        pitch: 0.0
+        yaw: 0.0
+      pos2:
+        ==: org.bukkit.Location
+        world: holosports_soccer
+        x: -69
+        y: 128
+        z: 4
+        pitch: 0.0
+        yaw: 0.0
+    arena-sideline-2:
+      pos1:
+        ==: org.bukkit.Location
+        world: holosports_soccer
+        x: -11
+        y: 0
+        z: 39
+        pitch: 0.0
+        yaw: 0.0
+      pos2:
+        ==: org.bukkit.Location
+        world: holosports_soccer
+        x: -69
+        y: 128
+        z: 52
+        pitch: 0.0
+        yaw: 0.0
+    arena-endline-1: # WHITE/BLUE
+      pos1:
+        ==: org.bukkit.Location
+        world: holosports_soccer
+        x: -70
+        y: 0
+        z: 42
+        pitch: 0.0
+        yaw: 0.0
+      pos2:
+        ==: org.bukkit.Location
+        world: holosports_soccer
+        x: -74
+        y: 128
+        z: 2
+        pitch: 0.0
+        yaw: 0.0
+    arena-endline-2: # RED
+      pos1:
+        ==: org.bukkit.Location
+        world: holosports_soccer
+        x: -10
+        y: 0
+        z: 2
+        pitch: 0.0
+        yaw: 0.0
+      pos2:
+        ==: org.bukkit.Location
+        world: holosports_soccer
+        x: -6
+        y: 128
+        z: 42
+        pitch: 0.0
+        yaw: 0.0
+    npcs:
+      hub:
+        ==: org.bukkit.Location
+        world: holosports_soccer
+        x: -39.5
+        y: 72
+        z: -12.5
+        pitch: 0.0
+        yaw: 0.0
+      team-selector:
+        ==: org.bukkit.Location
+        world: holosports_soccer
+        x: -38.5
+        y: 72
+        z: -2.5
+        pitch: 1.2
+        yaw: 179.4
+      role-selector:
+        ==: org.bukkit.Location
+        world: holosports_soccer
+        x: -40.5
+        y: 72
+        z: -2.5
+        pitch: 1.2
+        yaw: 179.4
+    spawn-points:
+      referee:
+        ==: org.bukkit.Location
+        world: holosports_soccer
+        x: -39.5
+        y: 67.0
+        z: 27.5
+        pitch: 0.0
+        yaw: -180.0
+      lobby:
+        ==: org.bukkit.Location
+        world: holosports_soccer
+        x: -39.5
+        y: 72
+        z: -10.5
+        pitch: 0.0
+        yaw: 0.0
+      ball:
+        ==: org.bukkit.Location
+        world: holosports_soccer
+        x: -39.5
+        y: 67
+        z: 22.5
+        pitch: 0.0
+        yaw: 0.0
+      penalty:
+        play-zone:
+          pos1:
+            ==: org.bukkit.Location
+            world: holosports_soccer
+            x: -10.040
+            y: 71.0
+            z: 14.022
+            pitch: 0.0
+            yaw: 0.0
+          pos2:
+            ==: org.bukkit.Location
+            world: holosports_soccer
+            x: -27.9
+            y: 66.0
+            z: 30.990
+            pitch: 0.0
+            yaw: 0.0
+        goal-zone:
+          pos1:
+            ==: org.bukkit.Location
+            world: holosports_soccer
+            x: -10.0
+            y: 69.0
+            z: 18.0
+            pitch: 0.0
+            yaw: 0.0
+          pos2:
+            ==: org.bukkit.Location
+            world: holosports_soccer
+            x: -7.0
+            y: 66.0
+            z: 26.0
+            pitch: 0.0
+            yaw: 0.0
+        ball-spawn:
+          ==: org.bukkit.Location
+          world: holosports_soccer
+          x: -25.5
+          y: 67
+          z: 22.5
+          pitch: 0.0
+          yaw: 0.0
+        shooter-spawn:
+          ==: org.bukkit.Location
+          world: holosports_soccer
+          x: -28.5
+          y: 67
+          z: 22.5
+          pitch: 0.0
+          yaw: -90.0
+        goalkeeper-spawn:
+          ==: org.bukkit.Location
+          world: holosports_soccer
+          x: -10.5
+          y: 67
+          z: 22.5
+          pitch: 0.0
+          yaw: 90.0
+    teams:
+      red:
+        name: 'Red'
+        color: RED
+        goal:
+          pos1:
+            ==: org.bukkit.Location
+            world: holosports_soccer
+            x: -9.0
+            y: 69.0
+            z: 18.0
+            pitch: 0.0
+            yaw: 0.0
+          pos2:
+            ==: org.bukkit.Location
+            world: holosports_soccer
+            x: -7.0
+            y: 66.0
+            z: 26.0
+            pitch: 0.0
+            yaw: 0.0
+        goalkeeper-zone:
+          pos1:
+            ==: org.bukkit.Location
+            world: holosports_soccer
+            x: -20.9
+            y: 65.0
+            z: 11.1
+            pitch: 0.0
+            yaw: 0.0
+          pos2:
+            ==: org.bukkit.Location
+            world: holosports_soccer
+            x: -9.1
+            y: 70.0
+            z: 33.9
+            pitch: 0.0
+            yaw: 0.0
+        spawn-points:
+          goalkeeper:
+            ==: org.bukkit.Location
+            world: holosports_soccer
+            x: -11.5
+            y: 66.0
+            z: 22.5
+            pitch: 0.0
+            yaw: 90.0
+          standard:
+            - ==: org.bukkit.Location
+              world: holosports_soccer
+              x: -32.5
+              y: 66.0
+              z: 22.5
+              pitch: 0.0
+              yaw: 90.0
+      white:
+        name: 'White'
+        color: WHITE
+        goal:
+          pos1:
+            ==: org.bukkit.Location
+            world: holosports_soccer
+            x: -71
+            y: 69.0
+            z: 26.0
+            pitch: 0.0
+            yaw: 0.0
+          pos2:
+            ==: org.bukkit.Location
+            world: holosports_soccer
+            x: -73.0
+            y: 66.0
+            z: 18.0
+            pitch: 0.0
+            yaw: 0.0
+        goalkeeper-zone:
+          pos1:
+            ==: org.bukkit.Location
+            world: holosports_soccer
+            x: -58.1
+            y: 65.0
+            z: 33.9
+            pitch: 0.0
+            yaw: 0.0
+          pos2:
+            ==: org.bukkit.Location
+            world: holosports_soccer
+            x: -69.9
+            y: 70.0
+            z: 11.1
+            pitch: 0.0
+            yaw: 0.0
+        spawn-points:
+          goalkeeper:
+            ==: org.bukkit.Location
+            world: holosports_soccer
+            x: -67.5
+            y: 66.0
+            z: 22.5
+            pitch: 0.0
+            yaw: -90.0
+          standard:
+            - ==: org.bukkit.Location
+              world: holosports_soccer
+              x: -45.5
+              y: 66.0
+              z: 22.5
+              pitch: 0.0
+              yaw: -90.0
